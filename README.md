@@ -13,6 +13,11 @@ City of Graz, Austria.
 - Open DEM data (slope calculation)
 - Administrative boundaries (open data sources)
 
+## Environment
+The analysis was conducted using Python 3.12 in a virtual environment
+(`venv-gst200b`). Required libraries include osmnx, geopandas, networkx and pandas.
+
+
 ## Methods (planned)
 - Network extraction using OSMnx
 - Speed and impedance modelling
