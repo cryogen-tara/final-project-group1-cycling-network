@@ -1,34 +1,36 @@
-# final-project-group1-cycling-network
-Final Project: GIS-based analysis of cycling network accessibility and routing scenarios in Graz, Austria.
+# GIS-based analysis of cycling network accessibility and routing scenarios in Graz, Austria.
+## Group 1: Fleischhacker Yvonne, Galitschitsch Michael, Koschu Katharina, Lambert David 
+
+## Research Question
+How does incorporating risk proxies (traffic speed, tram proximity, slope) change cycling accessibility to universities in Graz compared to pure shortest-distance routing?
 
 ## Project Aim
-(Planned:) This project investigates cycling network accessibility and routing scenarios
-in Graz, Austria, using open GIS data and Python-based network analysis.
+This project analyses cycling accessibility to university locations in Graz using GIS-based network analysis. 
 
 ## Study Area
-City of Graz, Austria.
+The study area is the city of Graz, Austria. 
 
 ## Data
-- OpenStreetMap (street network, cycling infrastructure)
-- Open DEM data (slope calculation)
-- Administrative boundaries (open data sources)
+The analysis is based on different geospatial datasets:
+- OSM (bike and tram network, university locations, city boundary/districts)
+- GIS Steiermark (1 m DEM) 
 
 ## Environment
-The analysis was conducted using Python 3.12 in a virtual environment
-(`venv-gst200b`). Required libraries include osmnx, geopandas, networkx and pandas.
+The analysis was coded using Python 3.12 and 3.11 within a virtual environment (venv-gst200b).
 
-
-## Methods (planned)
-- Network extraction using OSMnx
-- Speed and impedance modelling
-- Scenario-based routing analysis
-- GIS-based accessibility assessment
+## Methods
+The workflow consists of the following steps:
+- Data provision and collection
+- Preprocessing of spatial data and network preparation
+- Analysis, including routing, accessibility analysis, grid-based analysis, and statistical and comparative evaluation
+- Visualisation of results
 
 ## Repository Structure
-- `data/` – raw and processed datasets  
-- `notebooks/` – analysis notebooks  
-- `src/` – reusable Python functions (maybe?)  
-- `outputs/` – maps, figures, tables
+- `data/` - raw and processed datasets  
+- `notebooks/` - analysis notebooks  
+- `maps/` - results
+- `.gitignore` 
 
 ## Reproducibility
-All analyses are reproducible using the provided Python environment.
+All analyses are reproducible using the provided Python environment. Data sources are openly accessible and processing steps are documented within the repository. 
+
