@@ -1,5 +1,5 @@
 # final-project-group1-cycling-network
-Final Project: GIS-based analysis of cycling network accessibility and routing scenarios in Graz, Austria.
+GIS-based analysis of cycling network accessibility and routing scenarios in Graz, Austria.
 
 ## Project Aim
 (Planned:) This project investigates cycling network accessibility and routing scenarios
