@@ -23,8 +23,8 @@ The workflow consists of the following steps:
 - Visualisation of results
 
 ## Repository Structure
-final-project-group1-cycling-network
-│
+```text
+final-project-group1-cycling-network/
 ├── data/
 │   └── processed/                 # Cleaned and processed datasets
 │
@@ -36,6 +36,7 @@ final-project-group1-cycling-network
 ├── .gitignore                     # Git ignore rules
 ├── LICENSE                        # Project license
 └── README.md                      # Project overview
+```
 
 ## Requirements
 osmnx
