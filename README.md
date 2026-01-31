@@ -51,5 +51,5 @@ scipy
 rasterio
 
 ## Reproducibility
-All analysis steps are documented and reproducible using the provided repository and notebook. The only exception is the clipping and merging of the DEM tiles, which cannot be reproduced directly due to the large data volume. The processed DEM raster (.tif) used in the analysis was therefore provided separately via Moodle and must be manually placed in the data/processed directory before executing the notebook.
+All analysis steps are documented and reproducible using the provided repository and notebook. The only exception is the clipping and merging of the DEM tiles, which cannot be reproduced directly due to the large data volume. The processed DEM raster (dem_graz.tif) and the derived slope raster (slope_graz.tif) used in the analysis were therefore provided separately via Moodle and must be manually placed in the data/processed directory before executing the notebook. Alternatively, slope can be derived from dem_graz.tif within the notebook.
 
