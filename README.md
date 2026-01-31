@@ -51,5 +51,5 @@ scipy
 rasterio
 
 ## Reproducibility
-All analyses are reproducible using the provided Python environment. Data sources are openly accessible and processing steps are documented within the repository. 
+All analysis steps are documented and reproducible using the provided repository and notebook. The only exception is the clipping and merging of the DEM tiles, which cannot be reproduced directly due to the large data volume. The processed DEM raster (.tif) used in the analysis was therefore provided separately via Moodle and must be manually placed in the data/processed directory before executing the notebook.
 
