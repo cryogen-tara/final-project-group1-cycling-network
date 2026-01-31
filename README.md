@@ -1,16 +1,13 @@
 # GIS-based analysis of cycling network accessibility and routing scenarios in Graz, Austria.
-## Group 1: Fleischhacker Yvonne, Galitschitsch Michael, Koschu Katharina, Lambert David 
+
+Graz is characterized by relatively short urban distances, making cycling an attractive option for everyday mobility. However, cycling comfort and safety are not evenly distributed across the city. Factors such as slope, high traffic speeds, and tram infrastructure can significantly reduce cycling quality, even in areas close to university campuses.
+
+This project therefore analyzes bicycle accessibility to eight major university locations in Graz. Beyond network distance, the analysis incorporates expected cycling effort by considering risk proxies such as slope, traffic speed, and proximity to tram tracks. The results highlight that short distances in Graz do not necessarily correspond to safe, comfortable, or attractive cycling conditions.
 
 ## Research Question
 How does incorporating risk proxies (traffic speed, tram proximity, slope) change cycling accessibility to universities in Graz compared to pure shortest-distance routing?
 
-## Project Aim
-This project analyses cycling accessibility to university locations in Graz using GIS-based network analysis. 
-
-## Study Area
-The study area is the city of Graz, Austria. 
-
-## Data
+## Data Sources
 The analysis is based on different geospatial datasets:
 - OSM (bike and tram network, university locations, city boundary/districts)
 - GIS Steiermark (1 m DEM) 
@@ -26,10 +23,31 @@ The workflow consists of the following steps:
 - Visualisation of results
 
 ## Repository Structure
-- `data/` - raw and processed datasets  
-- `notebooks/` - analysis notebooks  
-- `maps/` - results
-- `.gitignore` 
+final-project-group1-cycling-network
+│
+├── data/
+│   └── processed/                 # Cleaned and processed datasets
+│
+├── notebooks/
+│   ├── figure/                    # Exported data/map visualizations
+│   ├── maps/                      # Exported Kepler map visualizations
+│   └── final-project-gr1.ipynb    # Main analysis notebook
+│
+├── .gitignore                     # Git ignore rules
+├── LICENSE                        # Project license
+└── README.md                      # Project overview
+
+## Requirements
+osmnx
+geopandas
+networkx
+pandas
+keplergl
+numpy
+matplotlib
+shapely
+scipy
+rasterio
 
 ## Reproducibility
 All analyses are reproducible using the provided Python environment. Data sources are openly accessible and processing steps are documented within the repository. 
