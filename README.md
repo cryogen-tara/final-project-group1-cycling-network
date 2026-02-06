@@ -5,7 +5,7 @@ Graz is characterized by relatively short urban distances, making cycling an att
 This project therefore analyzes bicycle accessibility to eight major university locations in Graz. Beyond network distance, the analysis incorporates expected cycling effort by considering risk proxies such as slope, traffic speed, and proximity to tram tracks. The results highlight that short distances in Graz do not necessarily correspond to safe, comfortable, or attractive cycling conditions.
 
 ## Research Question
-How does incorporating risk proxies (traffic speed, tram proximity, slope) change cycling accessibility to universities in Graz compared to pure shortest-distance routing?
+How does incorporating risk proxies (traffic speed, tram proximity, slope) affect cycling accessibility to universities in Graz compared to pure shortest-distance routing?
 
 ## Data Sources
 The analysis is based on different geospatial datasets:
